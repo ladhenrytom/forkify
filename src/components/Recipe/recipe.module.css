@@ -1,0 +1,35 @@
+.container {
+  background: var(--color-grey-light-1);
+}
+
+.imgOverlay {
+  background-image: linear-gradient(to right bottom, var(--color-grad-1), var(--color-grad-2));
+}
+
+.label {
+  background: var(--gradient);
+}
+
+.detailsItem {
+  color: var(--color-primary);
+}
+
+.detailsItem h2 {
+  color: var(--color-grey-dark-1);
+}
+
+.recipeIngredients {
+  background-color: var(--color-grey-light-2);
+}
+
+.recipeIngredients h2 {
+  color: var(--color-primary);
+}
+
+.directions h2 {
+  color: var(--color-primary);
+}
+
+.directions p {
+  color: var(--color-grey-dark-2);
+}

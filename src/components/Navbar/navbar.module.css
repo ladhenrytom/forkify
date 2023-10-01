@@ -1,0 +1,39 @@
+.container {
+  background: var(--color-grey-light-2);
+}
+
+.form {
+  min-width: 30rem;
+  background-color: #fff;
+  border-radius: 10rem;
+  transition: all 0.3s;
+}
+
+.form:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 0.7rem 3rem rgba(var(color-grey-dark-1), 0.08);
+}
+
+.input {
+  color: var(--color-grey-dark-1);
+}
+
+.input::placeholder {
+  color: var(--color-grey-light-3);
+}
+
+.navItem:hover {
+  background-color: var(--color-grey-light-3);
+}
+
+.navItem big {
+  color: var(--color-primary);
+}
+
+.searchOptionItem:hover {
+  background-color: var(--color-grey-light-2);
+}
+
+.bookmarkItem {
+  background-color: var(--color-grey-light-2);
+}

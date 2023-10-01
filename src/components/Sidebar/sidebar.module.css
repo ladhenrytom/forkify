@@ -1,0 +1,19 @@
+.imgOverlay {
+  background-image: linear-gradient(to right bottom, var(--color-grad-1), var(--color-grad-2));
+}
+
+.listItem:hover {
+  background: var(--color-grey-light-1);
+}
+
+.selected {
+  background: var(--color-grey-light-1);
+}
+
+.listItem big {
+  color: var(--color-primary);
+}
+
+.listItem small {
+  color: var(--color-grey-dark-2);
+}
